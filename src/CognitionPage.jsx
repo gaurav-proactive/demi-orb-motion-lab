@@ -30,13 +30,13 @@ export function CognitionPage() {
   return (
     <main className="cognition-page">
       <header className="cognition-header">
-        <a className="wordmark" href="/" aria-label="Open the primary Demi orb system">
+        <a className="wordmark" href={import.meta.env.BASE_URL} aria-label="Open the primary Demi orb system">
           <span className="brand-orb"><img src="/assets/Demi-gradient.svg" alt="" /></span>
           <span>DEMI</span>
           <span className="wordmark-suffix">/ COGNITION SET</span>
         </a>
         <div className="cognition-header-actions">
-          <a className="primary-system-link" href="/">Primary orb system</a>
+          <a className="primary-system-link" href={import.meta.env.BASE_URL}>Primary orb system</a>
           <div className="theme-toggle" role="group" aria-label="Color theme">
             <button type="button" className={theme === "dark" ? "active" : ""} aria-pressed={theme === "dark"} onClick={() => setTheme("dark")}>Dark</button>
             <button type="button" className={theme === "light" ? "active" : ""} aria-pressed={theme === "light"} onClick={() => setTheme("light")}>Light</button>
@@ -112,7 +112,7 @@ export function CognitionPage() {
         <div>
           <h2>Voice orb for intent. Cognition orb for progress.</h2>
           <p>The two systems now live on separate pages and can be evaluated independently before deciding which states belong in the product.</p>
-          <a href="/">Return to the primary orb system</a>
+          <a href={import.meta.env.BASE_URL}>Return to the primary orb system</a>
         </div>
       </section>
 

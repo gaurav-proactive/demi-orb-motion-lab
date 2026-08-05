@@ -125,7 +125,7 @@ export function App() {
             <a href="#live">Live sequence</a>
             <a href="#states">States</a>
             <a href="#handoff">JSON handoff</a>
-            <a href="/cognition">Cognition set</a>
+            <a href={`${import.meta.env.BASE_URL}#/cognition`}>Cognition set</a>
           </nav>
           <div className="theme-toggle" role="group" aria-label="Color theme">
             <button type="button" className={theme === "dark" ? "active" : ""} aria-pressed={theme === "dark"} onClick={() => setTheme("dark")}>Dark</button>

@@ -4,7 +4,8 @@ import { App } from "./App.jsx";
 import { CognitionPage } from "./CognitionPage.jsx";
 import "./styles.css";
 
-const isCognitionPage = window.location.pathname === "/cognition" || window.location.pathname === "/cognition/";
+const normalizedPath = window.location.pathname.replace(/\/+$/, "");
+const isCognitionPage = normalizedPath.endsWith("/cognition") || window.location.hash === "#/cognition";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
