@@ -31,7 +31,7 @@ export function CognitionPage() {
     <main className="cognition-page">
       <header className="cognition-header">
         <a className="wordmark" href={import.meta.env.BASE_URL} aria-label="Open the primary Demi orb system">
-          <span className="brand-orb"><img src="/assets/Demi-gradient.svg" alt="" /></span>
+          <span className="brand-orb"><img src={`${import.meta.env.BASE_URL}assets/Demi-gradient.svg`} alt="" /></span>
           <span>DEMI</span>
           <span className="wordmark-suffix">/ COGNITION SET</span>
         </a>

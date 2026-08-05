@@ -15,7 +15,7 @@ function useMotionSpecs() {
   const [specs, setSpecs] = useState([]);
   useEffect(() => {
     let cancelled = false;
-    Promise.all(STATE_IDS.map((id) => fetch(`/animations/${id}.json`).then((response) => response.json())))
+    Promise.all(STATE_IDS.map((id) => fetch(`${import.meta.env.BASE_URL}animations/${id}.json`).then((response) => response.json())))
       .then((data) => { if (!cancelled) setSpecs(data); });
     return () => { cancelled = true; };
   }, []);
@@ -116,7 +116,7 @@ export function App() {
     <main>
       <header className="site-header">
         <a className="wordmark" href="#top" aria-label="Demi orb motion home">
-          <span className="brand-orb"><img src="/assets/Demi-gradient.svg" alt="" /></span>
+          <span className="brand-orb"><img src={`${import.meta.env.BASE_URL}assets/Demi-gradient.svg`} alt="" /></span>
           <span>DEMI</span>
           <span className="wordmark-suffix">/ MOTION GRAMMAR</span>
         </a>
