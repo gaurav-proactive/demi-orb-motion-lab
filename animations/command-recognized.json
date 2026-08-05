@@ -1,0 +1,33 @@
+{
+  "id": "command-recognized",
+  "label": "Acknowledged",
+  "description": "Hey Demi is heard. A bright rim and color bloom confirm that agentic command mode is on.",
+  "semantic": "agentic-transition",
+  "durationMs": 1650,
+  "loop": true,
+  "colorMode": "demi-gradient",
+  "radius": 0.59,
+  "opacity": 1,
+  "breath": 0.055,
+  "voice": 0.5,
+  "voiceBands": 2,
+  "voiceFrequency": 1.85,
+  "hold": 0.1,
+  "flow": 0.22,
+  "halo": 0.44,
+  "haloLineWidth": 0.017,
+  "rimWidth": 0.022,
+  "acknowledgement": 1,
+  "collapse": 0,
+  "transition": {
+    "from": "monochrome",
+    "to": "demi-gradient",
+    "easing": "cubic-bezier(0.22,1,0.36,1)"
+  },
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

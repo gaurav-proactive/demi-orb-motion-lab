@@ -1,0 +1,27 @@
+{
+  "id": "agentic-listening",
+  "label": "Agentic listening",
+  "description": "Demi breathes steadily while a stronger voice ribbon follows the full request.",
+  "semantic": "agentic-input",
+  "durationMs": 2400,
+  "loop": true,
+  "colorMode": "demi-gradient",
+  "radius": 0.6,
+  "opacity": 1,
+  "breath": 0.06,
+  "voice": 0.72,
+  "voiceBands": 3,
+  "voiceFrequency": 1.72,
+  "hold": 0.08,
+  "flow": 0.14,
+  "halo": 0.16,
+  "haloLineWidth": 0.012,
+  "rimWidth": 0.018,
+  "collapse": 0,
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "proximity",
+  "label": "Near",
+  "description": "Cursor distance controls scale smoothly.",
+  "semantic": "attention",
+  "durationMs": 900,
+  "loop": true,
+  "colorMode": "monochrome",
+  "radius": 0.42,
+  "opacity": 0.72,
+  "breath": 0.018,
+  "voice": 0,
+  "flow": 0,
+  "halo": 0,
+  "collapse": 0,
+  "interaction": {
+    "input": "pointerDistance",
+    "nearPx": 36,
+    "farPx": 260,
+    "minRadius": 0.055,
+    "maxRadius": 0.5
+  },
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

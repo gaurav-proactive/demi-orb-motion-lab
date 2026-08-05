@@ -1,0 +1,24 @@
+{
+  "id": "connecting",
+  "label": "Connecting",
+  "renderer": "thinking-orbs",
+  "state": "connecting",
+  "speed": 0.8,
+  "sizes": [
+    64,
+    20
+  ],
+  "palette": [
+    "#246CE0",
+    "#CE3DA2",
+    "#FD8502",
+    "#FFFFFF"
+  ],
+  "baseSpeed": 0.8,
+  "speedMultiplier": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

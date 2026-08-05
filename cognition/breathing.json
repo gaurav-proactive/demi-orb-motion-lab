@@ -1,0 +1,24 @@
+{
+  "id": "breathing",
+  "label": "Waiting",
+  "renderer": "thinking-orbs",
+  "state": "breathing",
+  "speed": 0.62,
+  "sizes": [
+    64,
+    20
+  ],
+  "palette": [
+    "#246CE0",
+    "#CE3DA2",
+    "#FD8502",
+    "#FFFFFF"
+  ],
+  "baseSpeed": 0.62,
+  "speedMultiplier": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

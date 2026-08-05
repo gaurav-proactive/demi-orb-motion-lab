@@ -1,0 +1,24 @@
+{
+  "id": "searching",
+  "label": "Searching",
+  "renderer": "thinking-orbs",
+  "state": "searching",
+  "speed": 0.82,
+  "sizes": [
+    64,
+    20
+  ],
+  "palette": [
+    "#246CE0",
+    "#CE3DA2",
+    "#FD8502",
+    "#FFFFFF"
+  ],
+  "baseSpeed": 0.82,
+  "speedMultiplier": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

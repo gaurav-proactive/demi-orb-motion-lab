@@ -1,0 +1,27 @@
+{
+  "id": "dictating",
+  "label": "Speaking",
+  "description": "Voice moves through the orb as a broad, luminous ribbon while fn remains pressed.",
+  "semantic": "voice-input",
+  "durationMs": 1420,
+  "loop": true,
+  "colorMode": "monochrome",
+  "radius": 0.57,
+  "opacity": 1,
+  "breath": 0.035,
+  "voice": 0.94,
+  "voiceBands": 3,
+  "voiceFrequency": 2.65,
+  "hold": 0.16,
+  "flow": 0,
+  "halo": 0.14,
+  "haloLineWidth": 0.013,
+  "rimWidth": 0.019,
+  "collapse": 0,
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}
