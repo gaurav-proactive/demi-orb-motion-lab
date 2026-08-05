@@ -1,0 +1,24 @@
+{
+  "id": "shaping",
+  "label": "Shaping",
+  "renderer": "thinking-orbs",
+  "state": "shaping",
+  "speed": 0.68,
+  "sizes": [
+    64,
+    20
+  ],
+  "palette": [
+    "#246CE0",
+    "#CE3DA2",
+    "#FD8502",
+    "#FFFFFF"
+  ],
+  "baseSpeed": 0.68,
+  "speedMultiplier": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

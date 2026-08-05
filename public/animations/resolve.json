@@ -1,0 +1,36 @@
+{
+  "id": "resolve",
+  "label": "Resolve",
+  "description": "Approval holds a halo; completion contracts back to the edge.",
+  "semantic": "approval-or-complete",
+  "durationMs": 3600,
+  "loop": true,
+  "colorMode": "monochrome",
+  "radius": 0.5,
+  "opacity": 0.9,
+  "breath": 0.01,
+  "voice": 0,
+  "flow": 0,
+  "halo": 0.92,
+  "collapse": 0.84,
+  "phases": [
+    {
+      "name": "approval",
+      "at": 0,
+      "radius": 0.5,
+      "halo": 0.92
+    },
+    {
+      "name": "done",
+      "at": 0.62,
+      "radius": 0.055,
+      "halo": 0
+    }
+  ],
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

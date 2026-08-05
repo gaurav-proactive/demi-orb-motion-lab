@@ -1,0 +1,24 @@
+{
+  "id": "composing",
+  "label": "Composing",
+  "renderer": "thinking-orbs",
+  "state": "composing",
+  "speed": 0.72,
+  "sizes": [
+    64,
+    20
+  ],
+  "palette": [
+    "#246CE0",
+    "#CE3DA2",
+    "#FD8502",
+    "#FFFFFF"
+  ],
+  "baseSpeed": 0.72,
+  "speedMultiplier": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

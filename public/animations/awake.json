@@ -1,0 +1,27 @@
+{
+  "id": "awake",
+  "label": "Hold / awake",
+  "description": "Demi gathers into a primed, responsive listening surface while fn is held.",
+  "semantic": "listening",
+  "durationMs": 1500,
+  "loop": true,
+  "colorMode": "monochrome",
+  "radius": 0.55,
+  "opacity": 0.98,
+  "breath": 0.05,
+  "voice": 0.14,
+  "voiceBands": 2,
+  "voiceFrequency": 1.25,
+  "hold": 0.86,
+  "flow": 0,
+  "halo": 0.3,
+  "haloLineWidth": 0.014,
+  "rimWidth": 0.018,
+  "collapse": 0,
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "working",
+  "label": "Working",
+  "description": "Voice settles and the internal gradient flows upward quietly.",
+  "semantic": "executing",
+  "durationMs": 3200,
+  "loop": true,
+  "colorMode": "demi-gradient",
+  "radius": 0.56,
+  "opacity": 1,
+  "breath": 0.025,
+  "voice": 0,
+  "flow": 0.8,
+  "flowLines": 5,
+  "halo": 0.06,
+  "collapse": 0,
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}

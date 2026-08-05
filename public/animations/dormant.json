@@ -1,0 +1,22 @@
+{
+  "id": "dormant",
+  "label": "Invisible",
+  "description": "A near-invisible point rests at the edge.",
+  "semantic": "idle",
+  "durationMs": 2400,
+  "loop": true,
+  "colorMode": "monochrome",
+  "radius": 0.055,
+  "opacity": 0.34,
+  "breath": 0.02,
+  "voice": 0,
+  "flow": 0,
+  "halo": 0,
+  "collapse": 0,
+  "speed": 1,
+  "speedOptions": [
+    0.6,
+    1,
+    1.4
+  ]
+}
